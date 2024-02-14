@@ -13,8 +13,8 @@
     "preshow:dist": "yarn run build",
     "show:dist": "live-server dist"
   },
-  "repository": "git@github.com:AlexanderSheremet/js_events.git",
-  "author": "Sheremet1",
+  "repository": "git@github.com:Ibragim066/events.git",
+  "author": "Ibragim",
   "license": "MIT",
   "dependencies": {
     "@babel/cli": "^7.23.0",

@@ -11,7 +11,28 @@
     "sourceType": "module"
   },
   "rules": {
-    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
-    "no-restricted-syntax": ["error", "LabeledStatement", "WithStatement"]
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+      }
+    ],
+    "no-restricted-syntax": [
+      "error",
+      "LabeledStatement",
+      "WithStatement"
+    ]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".ts",
+          ".tsx"
+        ]
+      }
+    }
   }
 }
